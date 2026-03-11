@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Docker Web App</title>
+
+<script>
+function updateTime(){
+    const now = new Date();
+    document.getElementById("time").innerHTML = now.toLocaleString();
+}
+setInterval(updateTime,1000);
+</script>
+
+</head>
+
+<body onload="updateTime()" style="text-align:center; font-family:Arial">
+
+<h1>Roll Number: SHAIK NASEEMA</h1>
+
+<h2>Welcome to Docker</h2>
+
+<h3>Current Date & Time:</h3>
+<p id="time"></p>
+
+</body>
+</html>
